@@ -8,7 +8,6 @@ const stripe = require("stripe")(
 );
 
 app.use(cors());
-// ({ origin: "http://localhost:3000" })
 app.use(express.json());
 
 const uri = `mongodb+srv://akshatgtc:Akshat123@cluster0.2zu3863.mongodb.net/?retryWrites=true&w=majority`;
@@ -105,8 +104,8 @@ async function run() {
               quantity: 1,
             },
           ],
-          success_url: "http://localhost:3000/",
-          cancel_url: "http://localhost:3000/failure",
+          success_url: "https://twitter-clone-x.netlify.app/",
+          cancel_url: "https://twitter-clone-x.netlify.app/failure",
         });
         res.json({ url: session.url });
       } catch (error) {
@@ -130,8 +129,8 @@ async function run() {
               quantity: 1,
             },
           ],
-          success_url: "http://localhost:3000/",
-          cancel_url: "http://localhost:3000/failure",
+          success_url: "https://twitter-clone-x.netlify.app/",
+          cancel_url: "https://twitter-clone-x.netlify.app/failure",
         });
         res.json({ url: session.url });
       } catch (error) {
@@ -156,8 +155,8 @@ async function run() {
               quantity: 1,
             },
           ],
-          success_url: "http://localhost:3000/",
-          cancel_url: "http://localhost:3000/failure",
+          success_url: "https://twitter-clone-x.netlify.app/",
+          cancel_url: "https://twitter-clone-x.netlify.app/failure",
         });
 
         res.json({ url: session.url });
