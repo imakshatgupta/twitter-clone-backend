@@ -104,8 +104,8 @@ async function run() {
               quantity: 1,
             },
           ],
-          success_url: "https://twitter-clone-x.netlify.app/",
-          cancel_url: "https://twitter-clone-x.netlify.app/failure",
+          success_url: "https://twitterclone-x.netlify.app/",
+          cancel_url: "https://twitterclone-x.netlify.app/failure",
         });
         res.json({ url: session.url });
       } catch (error) {
@@ -129,8 +129,8 @@ async function run() {
               quantity: 1,
             },
           ],
-          success_url: "https://twitter-clone-x.netlify.app/",
-          cancel_url: "https://twitter-clone-x.netlify.app/failure",
+          success_url: "https://twitterclone-x.netlify.app/",
+          cancel_url: "https://twitterclone-x.netlify.app/failure",
         });
         res.json({ url: session.url });
       } catch (error) {
@@ -155,8 +155,8 @@ async function run() {
               quantity: 1,
             },
           ],
-          success_url: "https://twitter-clone-x.netlify.app/",
-          cancel_url: "https://twitter-clone-x.netlify.app/failure",
+          success_url: "https://twitterclone-x.netlify.app/",
+          cancel_url: "https://twitterclone-x.netlify.app/failure",
         });
 
         res.json({ url: session.url });
